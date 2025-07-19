@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import { FaCrown, FaUserCircle, FaTrophy } from 'react-icons/fa';
+import { FaUserCircle, FaTrophy } from 'react-icons/fa';
 
 function App() {
   const [users, setUsers] = useState([]);
